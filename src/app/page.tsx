@@ -67,14 +67,14 @@ export default async function Home() {
 				</CardContent>
 			</Card>
 
-			<div className="p-6 text-sm text-muted-foreground">
+			<div className="flex items-baseline gap-1 p-6 text-sm text-muted-foreground">
 				<p>
 					Made with 🪩 by{' '}
 					<a href="https://warpcast.com/alongcamewayne" target="_blank" className="font-semibold">
 						@alongcamewayne
 					</a>
 				</p>
-				{' • '}
+				<p>•</p>
 				<a href="https://github.com/alongcamewayne/readwise-cast-action" target="_blank">
 					GitHub
 				</a>
