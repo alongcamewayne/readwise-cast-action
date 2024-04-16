@@ -13,7 +13,7 @@ export function GET() {
 		name: 'Save to Readwise',
 		icon: 'bookmark',
 		description: 'Save casts to your Readwise library with a single click.',
-		aboutUrl: '',
+		aboutUrl: 'https://readwise-cast-action.pages.dev',
 		action: { type: 'post' },
 	});
 }
