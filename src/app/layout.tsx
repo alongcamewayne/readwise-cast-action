@@ -21,7 +21,10 @@ export default function RootLayout({
 		<AuthKitProvider>
 			<html lang="en">
 				<body
-					className={cn('min-h-screen bg-background font-sans antialiased p-2', fontSans.variable)}>
+					className={cn(
+						'flex min-h-screen bg-background p-2 font-sans antialiased',
+						fontSans.variable
+					)}>
 					{children}
 					<Toaster richColors position="top-center" />
 				</body>

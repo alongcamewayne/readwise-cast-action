@@ -45,7 +45,7 @@ export function TokenForm({ user }: TokenFormProps) {
 		return (
 			<div className="flex items-center">
 				<p>✔️ Connected!</p>
-				<div className="flex items-baseline gap-1 ml-2">
+				<div className="ml-2 flex items-baseline gap-1">
 					<Button variant="link" onClick={() => setEditMode(true)} className="px-0">
 						Edit token
 					</Button>
@@ -85,7 +85,7 @@ export function TokenForm({ user }: TokenFormProps) {
 
 	return (
 		<div>
-			<div className="flex my-2 gap-1">
+			<div className="my-2 flex gap-1">
 				<form action={handleSubmit} className="flex w-full items-center gap-2 ">
 					<Input
 						type="text"
